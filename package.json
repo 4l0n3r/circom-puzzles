@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Zero Knowledge Puzzles by RareSkills",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.5",
     "chai": "^4.3.7",
