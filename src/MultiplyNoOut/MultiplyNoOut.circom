@@ -6,7 +6,6 @@ pragma circom 2.1.8;
 template MultiplyNoOutput() {
     signal input in[3];
 
-    in[2] === in[0] * in[1];
 }
 
 component main = MultiplyNoOutput();

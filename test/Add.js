@@ -16,7 +16,7 @@ describe("Add Test", function (){
     this.timeout(100000);
 
     it("Should model addition", async() => {
-        const circuit = await wasm_tester(path.join(__dirname,"../Addition","Add.circom"));
+        const circuit = await wasm_tester(path.join(__dirname,"../src/Addition","Add.circom"));
 
         await circuit.loadConstraints();
         
